@@ -12,7 +12,7 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import { green, grey, indigo, red } from "@mui/material/colors";
+import { green, grey, indigo, purple, red } from "@mui/material/colors";
 import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 import DoneOutlineIcon from "@mui/icons-material/DoneOutline";
 import React, { useState } from "react";
@@ -211,8 +211,9 @@ const styles = {
   },
   heading: {
     textAlign: "center",
-    color: indigo[500],
+    color: purple[900],
     marginBottom: 4,
+    fontWeight: "bold",
   },
   secondColumn: {
     marginTop: 3,
@@ -226,7 +227,8 @@ const styles = {
   listContainerTitle: {
     paddingLeft: 2,
     marginBottom: 4,
-    color: indigo[500],
+    fontWeight: "bold",
+    color: purple[900],
   },
   remainTaskAvatar: {
     backgroundColor: indigo["A400"],
